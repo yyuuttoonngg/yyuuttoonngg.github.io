@@ -1,9 +1,124 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<h1>Hello there</h1>
-</body>
+<html lang="en">
+  <head>
+    <title>yyuuttoonngg</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body data-spy ="scroll" data-target=".navbar" data-offset="100" >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="https://www.linkedin.com/in/tong-yu-54431712/" target="_blank">My LinkedIn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#about">About me</a>
+            <a class="nav-item nav-link" href="#projects">My Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /nav -->
+
+    <!-- junbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+      <div class="container text-sm-center pt-5">
+        <p class="lead">Hi, I'm Tong. Nice to meet you.</p>
+      </div>
+    </div><!-- /junbotron -->
+
+
+      <div class="container pt-4">
+        <!-- about -->
+        <div id="about" class="row pt-4">
+          <div class="col-lg order-lg-2">
+            <h3 class="mb-4">About Me</h3>
+            <img src="img/me.jpg" alt="Paris" class="img-fluid rounded d-none d-sm-block">
+            <p>I am a web developer and recent graduate of the Web Development Immersive Course at General Assembly.</p>
+            <p>I enjoy working with numbers and I am passionate about understanding how things work and applying logic to solve problems.</p>
+          </div>
+          <div class="col-lg order-lg-1">
+            <h3 class="mb-4">My Story</h3>
+            <h5>Who am I ?</h5> 
+            <p>I finished my master degree of Clinical Pharmacy and worked both in hospital and community pharmacy. I had worked in Operation Therater(I have tones of 'bloody' stories if you are interested). Worked for Anti-doping Test Center for the 2008 Olympic Games and also took part in Clinical Trials (in another word, human tests...)</p>
+
+            <h5>Why am I coding? </h5>
+            <p>Some(I mean, a lot) pharmacy softwares/ websites are so outdated and poorly designed! I wanted to see if I can play around a little bit to improve...And I found out I love coding!</p>
+          </div>
+
+          <div class="col-lg order-lg-3">
+            <h3 class="mb-4">Skills</h3>
+            <div class="list-group">
+              <p><strong>Front End</strong></p>
+              <p> HTML, CSS, JavaScript, Bootstrap, jQuery, Responsive Web Design, ReactJS </p>
+              <p><strong>Back End</strong></p>
+              <p>Ruby, Ruby on Rails, Sinatra, NoodeJS, PostgresSQL, ActiveRecord</p>
+              <p><strong>Fun skills</strong></p>
+              <p>I'm a good swimmer and I can ride unicycle!(Hey, I think it's pretty cool)</p>
+
+   
+            </div>
+          </div>
+        </div> <!-- /about -->
+        
+        <!-- projects -->
+        <h1 class="display-4 text-center my-5 text-muted" id="projects">My Projects</h1>
+          <div class="row">
+            <div class="col-md-4 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="img/tic-cat-toe.png" alt="tic-cat-toe">
+                <div class="card-body">
+                    <h4 class="card-title">TIC <span id="tac">TAC</span> CAT TOE</h4>
+                    <p class="card-text">A front-end single-page game built with Javascript, Css and HTML. Using local storage to restore game state. Game has audio and responsive design to ensure best user experience on different-size devices. Also includes a timer feature to make the game more challenging.</p>
+                    <a href="https://yyuuttoonngg.github.io/Tic-Tac-Toe/" class="float-right">play the game!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="img/love-les-lvres-login.png" alt="love les livres">
+                <div class="card-body">
+                  <h4 class="card-title">LOVE LES LIVRES</h4>
+                  <p class="card-text">A Ruby and Sinatra Web application for book lovers and people who want to make new friends. Using Goodreads API, app allows user to search books info, shelf interesting ones and give ratings once finished reading. User can see other users who like or dislike the same book, can exchange messages and recommend books to each other.</p>
+                  <a href="https://powerful-castle-54656.herokuapp.com/
+                  " class="float-right">search the perfect book</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card mb-3">
+                <img class="card-img-top" src="img/ikigai_login.png" alt="Ikigai">
+                <div class="card-body">
+                  <h4 class="card-title">IKIGAI</h4>
+                  <p class="card-text">Find your perfect mentor or mentor someone else. This is a group project using Ruby on Rails, which I worked on with 3 other teammates. Through this project, we practiced Error Driven Development, Git and Version Control, Agile Methodology as well as team work flow.</p>
+                  <a href="https://ikigai-dutch-uncle.herokuapp.com/
+                  " class="float-right">find your mentor</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- /projects -->
+
+
+        <!-- footer -->
+        <div class="row py-3">
+            <div class="col-md text-md-right">
+                <small>contact: yyuuttoonngg@gmail.com</small>
+            </div>
+        </div><!-- /footer -->
+
+      </div><!-- /container -->
+  </body>
 </html>
