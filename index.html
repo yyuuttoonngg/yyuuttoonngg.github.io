@@ -31,16 +31,10 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand order-1 mr-0" href="https://www.linkedin.com/in/tong-yu-54431712/" target="_blank">My LinkedIn</a>
+        <a class="navbar-brand order-1 mr-0" href="https://www.linkedin.com/in/tong-yu-54431712/" target="_blank">LinkedIn</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#about">About me</a>
-            <a class="nav-item nav-link" href="#projects">My Projects</a>
-          </div>
-        </div>
       </div>
     </nav>
     <!-- /nav -->
@@ -48,46 +42,14 @@
     <!-- junbotron -->
     <div class="jumbotron jumbotron-fluid bg-info text-white">
       <div class="container text-sm-center pt-5">
-        <p class="lead">Hi, I'm Tong. Nice to meet you.</p>
+        <p class="lead">Hola!</p>
       </div>
     </div><!-- /junbotron -->
 
 
-      <div class="container pt-4">
-        <!-- about -->
-        <div id="about" class="row pt-4">
-          <div class="col-lg order-lg-2">
-            <h3 class="mb-4">About Me</h3>
-            <img src="img/me.jpg" alt="Paris" class="img-fluid rounded d-none d-sm-block">
-            <p>I am a web developer and recent graduate of the Web Development Immersive Course at General Assembly.</p>
-            <p>I enjoy working with numbers and I am passionate about understanding how things work and applying logic to solve problems.</p>
-          </div>
-          <div class="col-lg order-lg-1">
-            <h3 class="mb-4">My Story</h3>
-            <h5>Who am I ?</h5> 
-            <p>I finished my master degree of Clinical Pharmacy and worked both in hospital and community pharmacy. I had worked in Operation Therater(I have tones of 'bloody' stories if you are interested). Worked for Anti-doping Test Center for the 2008 Olympic Games and also took part in Clinical Trials (in another word, human tests...)</p>
-
-            <h5>Why am I coding? </h5>
-            <p>Some(I mean, a lot) pharmacy softwares/ websites are so outdated and poorly designed! I wanted to see if I can play around a little bit to improve...And I found out I love coding!</p>
-          </div>
-
-          <div class="col-lg order-lg-3">
-            <h3 class="mb-4">Skills</h3>
-            <div class="list-group">
-              <p><strong>Front End</strong></p>
-              <p> HTML, CSS, JavaScript, Bootstrap, jQuery, Responsive Web Design, ReactJS </p>
-              <p><strong>Back End</strong></p>
-              <p>Ruby, Ruby on Rails, Sinatra, NoodeJS, PostgresSQL, ActiveRecord</p>
-              <p><strong>Fun skills</strong></p>
-              <p>I'm a good swimmer and I can ride unicycle!(Hey, I think it's pretty cool)</p>
-
-   
-            </div>
-          </div>
-        </div> <!-- /about -->
-        
+      <div class="container pt-4">        
         <!-- projects -->
-        <h1 class="display-4 text-center my-5 text-muted" id="projects">My Projects</h1>
+        <h1 class="display-4 text-center my-5 text-muted" id="projects">Projects</h1>
           <div class="row">
             <div class="col-md-6 col-lg-3">
               <div class="card mb-3">
@@ -96,7 +58,7 @@
                   <h4 class="card-title">COLOR-5-O</h4>
                   <p class="card-text">A front-end game created by using React and SVG. Using wire routing algorithm, game calculates if a clear path is available between two points, otherwise the move will be blocked. This game has a simple but  modern design, and can be very challenging and addictive. I got a lot of my friends hooked on it!   
                   </p>
-                  <a href="https://yyuuttoonngg.github.io/colorball5o/#/" class="float-right">Let's play!</a>
+                  <a href="https://yyuuttoonngg.github.io/colorball5o/#/" class="float-right align-bottom">Let's play!</a>
                 </div>
               </div>
             </div>
@@ -107,7 +69,7 @@
                 <div class="card-body">
                     <h4 class="card-title">TIC <span id="tac">TAC</span> CAT TOE</h4>
                     <p class="card-text">A front-end single-page game built with Javascript, Css and HTML. Using local storage to restore game state. Game has audio and responsive design to ensure best user experience on different-size devices. Also includes a timer feature to make the game more challenging.</p>
-                    <a href="https://yyuuttoonngg.github.io/Tic-Tac-Toe/" class="float-right">play the game!</a>
+                    <a href="https://yyuuttoonngg.github.io/Tic-Tac-Toe/" class="float-right ">play the game!</a>
                 </div>
               </div>
             </div>
@@ -149,5 +111,25 @@
         </div><!-- /footer -->
 
       </div><!-- /container -->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvyz6qTF5yfmKw546rEuRuF4ED7UyS0uo",
+    authDomain: "mypage-1a3e2.firebaseapp.com",
+    databaseURL: "https://mypage-1a3e2.firebaseio.com",
+    projectId: "mypage-1a3e2",
+    storageBucket: "",
+    messagingSenderId: "380890595494",
+    appId: "1:380890595494:web:d9a33245d3af7e69"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </body>
 </html>
